@@ -20,25 +20,27 @@
 
 В процессе тестирования использовались следующие артефакты:
 
-[checklist.txt]( )
+[checklist.md](checklist.md)
+[testdata.txt](testdata.txt)
 
 В качестве тестовых данных использовались данные [Javaqa-homeworks](https://github.com/netology-code/javaqa-homeworks/tree/master/intro):
 
-* [Open JDK manual](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md) ***for Mac OS***
+* [IDEA installation manual](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/idea.md) ***for Mac OS***
 
-***Ожидаемый результат: успешная инсталляция Open JDK 11 на Mac OS согласно инструкции***
+***Ожидаемый результат: успешная инсталляция IntelliJ IDEA на Mac OS согласно инструкции***
 
-* [KeyValidator File](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/artifacts/KeyValidator.class)
+* [Source code](https://github.com/netology-code/javaqa-code/blob/master/intro/hello-programming/src/Main.java)
 
-***Ожидаемый результат: приложение устанавливается, запускается и совместимо с Java 11***
+***Ожидаемый результат: исходный код запускается, компилируется, результат выводится на панель рабочей среды***
 
-* [KeyValidator User Manual](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md)
+* [Credit Card Number Validator source code](https://github.com/netology-code/javaqa-homeworks/tree/master/intro)
 
-***Ожидаемый результат: приложение работает согласно руководству использования***
+***Ожидаемый результат: работа кода согласно заданой спецификации в результате проверки согласно [checklist.md](checklist.md)***
 
 Тестирование производилось в следующем окружении:
 
-* macOS version 0.15.3 (19D76) x86_64
-* openjdk 11.0.6 2020-01-14  
-OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.6+10)  
-OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.6+10, mixed mode)
+* macOS version 10.15.3 (19D76) x86_64
+* IntelliJ IDEA 2019.1.4 (Community Edition)
+Build #IC-191.8026.42, built on July 30, 2019
+JRE: 1.8.0_212-release-1586-b4 x86_64
+JVM: OpenJDK 64-Bit Server VM by JetBrains s.r.o
